@@ -3,7 +3,11 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-    res.json({ status: "healthy" });
+    res.json({ 
+        nama: "Ahmad Kelfin Maulana", 
+        nim: "C2C023171",
+        status: "healthy" 
+    });
 });
 
 // Ini variabel simulasi untuk trik "Pipeline Gagal" nanti
