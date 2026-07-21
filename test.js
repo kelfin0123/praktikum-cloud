@@ -1,5 +1,5 @@
 // Test sederhana untuk mengecek logika aplikasi
-const triggerError = false; // Ubah jadi TRUE nanti jika ingin simulasi GAGAL
+const triggerError = true; // Ubah jadi TRUE nanti jika ingin simulasi GAGAL
 
 console.log("Menjalankan Automated Testing...");
 
